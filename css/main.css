@@ -1,0 +1,112 @@
+/******************************************/
+/*              General CSS               */
+/******************************************/
+*{
+    border: red solid 1px;
+}
+
+.picture-source{
+    margin-top: -25px;
+}
+
+/******************************************/
+/*              Header                    */
+/******************************************/
+.header-container{
+    background-color: #ffffff;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-col{
+    padding-right: 5px;
+    text-align: right;
+}
+
+#navigation-list ul{
+    float: right;
+    text-align: right;
+    list-style: none;
+    margin: auto;
+    padding-left: 10px;
+}
+
+#navigation-list ul li{
+    float: left;
+    text-decoration: none;
+    padding: 7.5px;
+}
+
+/******************************************/
+/*              Splash                    */
+/******************************************/
+.splash-container{
+    background-color: #ffffff;
+}
+
+/******************************************/
+/*              About                     */
+/******************************************/
+.profile-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+}
+
+/******************************************/
+/*              Contactform               */
+/******************************************/
+.contactform{
+    background-color: #022F40;
+}
+
+/******************************************/
+/*              Footer                    */
+/******************************************/
+.footer{
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #252323;
+    text-align: center;
+    line-height: 45px;
+}
+
+/******************************************/
+/*               Media Query              */
+/******************************************/
+
+@media only screen and (max-width: 400px) {
+    h3{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #navigation-list{
+        position:absolute;
+        right:0;
+    }
+
+    #navigation-list ul{
+        margin-bottom: 5px;
+        max-width: 140px;
+        min-width: 110px;
+    }
+
+
+    #navigation-list ul li{
+        float: right;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .profile-container{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        background-color: #ffffff;
+    }
+
+}
